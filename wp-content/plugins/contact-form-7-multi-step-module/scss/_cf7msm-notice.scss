@@ -1,0 +1,90 @@
+.cf7msm-notice {
+    padding: 20px;
+    .cf7msm-notice-inner {
+        display: table;
+        width: 100%;
+    }
+    .cf7msm-notice-icon {
+        display: table-cell;
+        vertical-align: middle;
+        width: 64px;
+    }
+    .cf7msm-notice-content {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 40px 0 20px;
+        h3 {
+            margin: 0 0 5px;
+        }
+        p {
+            margin-top: 0;
+        }
+    }
+    .cf7msm-notice-actions {
+        display: table-cell;
+        vertical-align: middle;
+
+        a.cf7msm-review-button {
+            display: block;
+            padding: 6px 50px;
+            line-height: 20px;
+            height: auto;
+            margin-bottom: 8px;
+        }
+        .spacer {
+            padding: 0 5px;
+            color: #90959a;
+        }
+        .other-buttons {
+            text-align: center;
+        }
+        a.cf7msm-did, a.cf7msm-later {
+            text-decoration: none;
+            color: #616569;
+            font-size: .95em;
+            &.trash {
+                color: #a00;
+            }
+        }
+    }
+}
+
+.cf7msm-notice-cookie {
+    .cf7msm-notice-actions {
+        a:first-child {
+            margin-bottom: 10px;
+        }
+        a {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width:787px) {
+    .cf7msm-notice {
+        .cf7msm-notice-icon {
+            display: none;
+        }
+        .cf7msm-notice-content {
+            display: block;
+            width: 100%;
+            padding: 0 0 10px;
+        }
+        .cf7msm-notice-actions {
+            display: block;
+            a.cf7msm-review-button {
+                display: inline-block;
+                width: 170px;
+                padding-left: 0;
+                padding-right: 0;
+                text-align: center;
+            }
+            .other-buttons {
+                display: inline-block;
+                margin-left: 15px;
+                text-align: left;
+                width: 170px;
+            }
+        }
+    }
+}

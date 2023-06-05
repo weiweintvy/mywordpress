@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form 7 Multi Step Forms\n"
+"POT-Creation-Date: 2017-12-26 15:50-1000\n"
+"PO-Revision-Date: 2017-12-26 15:51-1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: freemius\n"
+
+#: cf7msm-admin.php:36
+msgid "CF7 Multi-Step Forms"
+msgstr ""
+
+#: cf7msm-admin.php:38
+msgid ""
+"<p>Not getting all information from your Multi-Step forms? </p><p>Consider "
+"upgrading to allow for longer multi-step forms.</p>"
+msgstr ""
+
+#: cf7msm-admin.php:41
+#, php-format
+msgid ""
+"<a href=\"#\" class=\"cf7msm-freemius-purchase\">Upgrade Now</"
+"a><br><a href=\"%1$s\" target=\"_blank\">Learn more</a><a href=\"%1$s\" "
+"class=\"external dashicons dashicons-external\" target=\"_blank\"></a>"
+msgstr ""
+
+#: cf7msm.php:31
+#, php-format
+msgid ""
+"Please update the Contact Form 7 plugin.  Contact Form 7 Multi-Step Form "
+"plugin requires Contact Form 7 version %s or above."
+msgstr ""
+
+#: cf7msm.php:35
+msgid ""
+"The Contact Form 7 plugin is installed, but <strong>you must activate "
+"Contact Form 7</strong> below for the Contact Form 7 Multi-Step Form to work."
+msgstr ""
+
+#: cf7msm.php:37
+#, php-format
+msgid ""
+"The Contact Form 7 plugin must be installed for the Contact Form 7 Multi-"
+"Step Form to work. <a href=\"%s\" class=\"thickbox\" title=\"Contact Form "
+"7\">Install Now.</a>"
+msgstr ""
+
+#: cf7msm.php:211 cf7msm.php:215
+msgid "Please fill out the form on the previous page"
+msgstr ""
+
+#: cf7msm.php:425
+#, php-format
+msgid ". For more details, see %s."
+msgstr ""
+
+#: cf7msm.php:428
+msgid "the plugin page on WordPress.org"
+msgstr ""
+
+#: cf7msm.php:444
+#, php-format
+msgid ""
+"Like the Multi-step addition to CF7?  Let me know - <a href=\"%s\" target="
+"\"_blank\">Donate</a> and <a href=\"%s\" target=\"_blank\">Review</a>."
+msgstr ""
+
+#: contact-form-7-multi-step-module.php:96
+#, php-format
+msgid ""
+"Please help improve the %1$s plugin!  I have chosen to use %2$s to get an "
+"idea of how users use my plugin.<br><br>  If you opt-in, the administrator "
+"email and some data about your usage of %1$s will be sent to %2$s. If you "
+"skip this, that's okay! The plugin will still work just fine."
+msgstr ""
+
+#: form-tags/module-back.php:58
+msgid "Previous"
+msgstr ""
+
+#: form-tags/module-back.php:62
+msgid "Back"
+msgstr ""
+
+#: form-tags/module-back.php:83
+msgid "previous"
+msgstr ""
+
+#: form-tags/module-back.php:87
+msgid "Back button"
+msgstr ""
+
+#: form-tags/module-back.php:104
+msgid "Generate a form-tag for a previous button for a multistep form"
+msgstr ""
+
+#: form-tags/module-back.php:108 form-tags/module-back.php:161
+msgid "Label"
+msgstr ""
+
+#: form-tags/module-back.php:111
+msgid "The label on the button."
+msgstr ""
+
+#: form-tags/module-back.php:116
+msgid "Id attribute"
+msgstr ""
+
+#: form-tags/module-back.php:121
+msgid "Class attribute"
+msgstr ""
+
+#: form-tags/module-back.php:133 form-tags/module-multistep.php:166
+#: form-tags/module-session.php:167
+msgid "Insert Tag"
+msgstr ""
+
+#: form-tags/module-back.php:138 form-tags/module-multistep.php:171
+#: form-tags/module-session.php:172
+msgid "This field should not be used on the Mail tab."
+msgstr ""
+
+#: form-tags/module-back.php:153 form-tags/module-back.php:156
+#: form-tags/module-back.php:161 form-tags/module-session.php:191
+msgid "optional"
+msgstr ""
+
+#: form-tags/module-back.php:168 form-tags/module-session.php:196
+msgid "Copy this code and paste it into the form left."
+msgstr ""
+
+#: form-tags/module-multistep.php:47
+msgid "multistep"
+msgstr ""
+
+#: form-tags/module-multistep.php:119
+msgid "Current Step"
+msgstr ""
+
+#: form-tags/module-multistep.php:124
+msgid "The current step of this multi-step form."
+msgstr ""
+
+#: form-tags/module-multistep.php:130
+msgid "Total Steps"
+msgstr ""
+
+#: form-tags/module-multistep.php:135
+msgid "The total number of steps in your multi-step form."
+msgstr ""
+
+#: form-tags/module-multistep.php:142
+msgid "Next Page URL"
+msgstr ""
+
+#: form-tags/module-multistep.php:148
+msgid ""
+"The URL of the page that contains the next form.  (Leave blank on last step)"
+msgstr ""
+
+#: form-tags/module-multistep.php:156
+#, php-format
+msgid ""
+"<p><strong>Warning:</strong> Your form may be at risk of being too large for "
+"the free version of this plugin.<br>If a user submits too much data in the "
+"forms you may not get all information.<br><button class=\"cf7msm-freemius-"
+"purchase\">Upgrade Now</button><br><a href=\"%s\" target=\"_blank\">See here "
+"for more information.</a></p>"
+msgstr ""
+
+#: form-tags/module-session.php:126
+msgid "form field"
+msgstr ""
+
+#: form-tags/module-session.php:129
+msgid "Form value"
+msgstr ""
+
+#: form-tags/module-session.php:145
+msgid ""
+"Generate a form-tag to show a field from a previous form in a multistep form"
+msgstr ""
+
+#: form-tags/module-session.php:150
+msgid "Name"
+msgstr ""
+
+#: form-tags/module-session.php:154
+msgid "The name of the field from a form in a previous step."
+msgstr ""
+
+#: form-tags/module-session.php:188
+msgid "Name of previous form field"
+msgstr ""
+
+#: form-tags/module-session.php:198
+msgid "Mail fields currently not supported."
+msgstr ""
